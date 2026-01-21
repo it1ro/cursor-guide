@@ -1,8 +1,8 @@
-# 7. Cursor Workflows
+# Workflows
 
-## 7.1. Workflow: Архитектурный анализ модуля
+## Архитектурный анализ модуля
 
-Используй, когда начинаешь новый модуль или хочешь пересмотреть существующий.
+Используй при начале нового модуля или пересмотре существующего.
 
 ```
 You are an architect working on telnik-flight-engine.
@@ -20,10 +20,10 @@ Task:
 Analyze the architecture of the [MODULE NAME] module.
 
 Steps:
-1. Propose 3 architectural variants.
-2. Compare them by clarity, composability, performance, and integration.
-3. Explain trade-offs.
-4. Give a recommendation.
+1. Propose 3 architectural variants
+2. Compare them by clarity, composability, performance, and integration
+3. Explain trade-offs
+4. Give a recommendation
 
 Output format:
 - Variants
@@ -32,11 +32,7 @@ Output format:
 - Recommendation
 ```
 
----
-
-## 7.2. Workflow: Проектирование API
-
-Используй, когда нужно создать или уточнить API модуля.
+## Проектирование API
 
 ```
 You are designing the API for the [MODULE NAME] module.
@@ -50,9 +46,9 @@ Requirements:
 - deterministic behavior
 
 Steps:
-1. Propose 2–3 API variants.
-2. Explain pros/cons.
-3. Recommend the minimal variant.
+1. Propose 2–3 API variants
+2. Explain pros/cons
+3. Recommend the minimal variant
 
 Output:
 - API signatures
@@ -60,11 +56,7 @@ Output:
 - Recommendation
 ```
 
----
-
-## 7.3. Workflow: Реализация модуля
-
-Используй, когда нужно написать модуль с нуля.
+## Реализация модуля
 
 ```
 You are implementing the [MODULE NAME] module for telnik-flight-engine.
@@ -78,11 +70,11 @@ Constraints:
 - no new abstractions
 
 Steps:
-1. Propose a minimal implementation plan.
-2. Wait for confirmation.
-3. Implement the module.
-4. Provide usage example.
-5. Add integration notes.
+1. Propose a minimal implementation plan
+2. Wait for confirmation
+3. Implement the module
+4. Provide usage example
+5. Add integration notes
 
 Output:
 - Plan
@@ -91,11 +83,7 @@ Output:
 - Integration notes
 ```
 
----
-
-## 7.4. Workflow: Multi-file refactor
-
-Используй, когда нужно изменить API, переименовать функцию, перенести модуль.
+## Multi-file refactor
 
 ```
 You are performing a multi-file refactor in telnik-flight-engine.
@@ -110,21 +98,17 @@ Constraints:
 - keep API stable unless explicitly stated
 
 Steps:
-1. Show the list of files you plan to modify.
-2. Show the planned changes.
-3. Wait for confirmation.
-4. Apply changes.
+1. Show the list of files you plan to modify
+2. Show the planned changes
+3. Wait for confirmation
+4. Apply changes
 
 Output:
 - File list
 - Change plan
 ```
 
----
-
-## 7.5. Workflow: Генерация тестов
-
-Используй, когда нужно покрыть модуль тестами.
+## Генерация тестов
 
 ```
 Write unit tests for the [MODULE NAME] module.
@@ -141,11 +125,7 @@ Output:
 - Explanation of edge cases
 ```
 
----
-
-## 7.6. Workflow: Документация (TS-only)
-
-Используй, когда нужно создать документацию для модуля.
+## Документация
 
 ```
 Write TS-only documentation for the [MODULE NAME] module.
@@ -160,11 +140,7 @@ Include:
 - no external dependencies
 ```
 
----
-
-## 7.7. Workflow: Debug / поиск ошибок
-
-Используй, когда что-то ведёт себя странно.
+## Debug
 
 ```
 Analyze this module for potential issues.
@@ -183,11 +159,7 @@ Output:
 - Suggested fixes
 ```
 
----
-
-## 7.8. Workflow: Быстрое прототипирование
-
-Используй, когда хочешь быстро проверить идею.
+## Прототипирование
 
 ```
 Create a simplified prototype of the [MODULE NAME] module.
@@ -204,7 +176,3 @@ Output:
 - Usage example
 - Notes on limitations
 ```
-
----
-
-Навигация: [← Предыдущий](06-communication-techniques.md) | [Оглавление](index.md) | [Следующий →](08-antipatterns.md)
