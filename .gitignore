@@ -1,9 +1,15 @@
-# Jekyll временные файлы
+# Jekyll временные файлы (для обратной совместимости)
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 vendor/
+
+# MkDocs выходная директория
+site/
+
+# Кэш MkDocs
+.cache/
 
 # ОС файлы
 .DS_Store
