@@ -19,3 +19,7 @@ description: Как собирать и публиковать Cursor AI Guide �
 pip install -r requirements.txt
 mkdocs serve
 ```
+
+---
+
+Навигация: [← Предыдущий](11-settings.md) | [Оглавление](index.md) | —

@@ -205,3 +205,6 @@ Output:
 - Notes on limitations
 ```
 
+---
+
+Навигация: [← Предыдущий](06-communication-techniques.md) | [Оглавление](index.md) | [Следующий →](08-antipatterns.md)

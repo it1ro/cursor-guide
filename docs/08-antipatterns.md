@@ -281,3 +281,7 @@ Check for:
 - nondeterminism
 - naming issues
 ```
+
+---
+
+Навигация: [← Предыдущий](07-workflows.md) | [Оглавление](index.md) | [Следующий →](09-examples.md)
