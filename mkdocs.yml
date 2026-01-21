@@ -1,5 +1,5 @@
 site_name: Cursor AI Guide
-site_description: Личный гайд по эффективной работе с Cursor AI
+site_description: Практики работы с Cursor: контекст, промпты, дизайн, реализация
 
 # Репозиторий
 repo_name: cursor-guide
@@ -49,6 +49,7 @@ nav:
   - Примеры из реальных проектов: 09-examples.md
   - Личные практики: 10-practices.md
   - Настройки Cursor AI: 11-settings.md
+  - Публикация и локальный запуск: 12-development.md
 
 # Расширения Markdown
 markdown_extensions:
