@@ -32,6 +32,8 @@ theme:
     - search.highlight
     - content.code.copy
     - content.code.annotate
+  extra_css:
+    - assets/css/custom-theme.css
 
 # Навигация
 nav:
