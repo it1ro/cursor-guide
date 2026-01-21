@@ -1,0 +1,11 @@
+title: "Cursor AI Guide"
+description: "Личный гайд по эффективной работе с Cursor AI"
+theme: minima
+
+# Минимальные настройки для GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages настройки
+github: [metadata]
