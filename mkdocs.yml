@@ -1,0 +1,73 @@
+site_name: Cursor AI Guide
+site_description: Личный гайд по эффективной работе с Cursor AI
+
+# Репозиторий
+repo_name: cursor-guide
+repo_url: https://github.com/it1ro/cursor-guide
+edit_uri: edit/main/docs/
+
+# Тема Material
+theme:
+  name: material
+  palette:
+    # Темная тема по умолчанию
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на светлую тему
+    # Светлая тема опционально
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на темную тему
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+# Навигация
+nav:
+  - Главная: index.md
+  - Принципы работы с Cursor AI: 01-principles.md
+  - Структура эффективного промпта: 02-prompt-structure.md
+  - Cursor в проектировании: 03-design.md
+  - Cursor в реализации: 04-implementation.md
+  - Cursor в развитии идеи: 05-ideation.md
+  - Техники общения с Cursor: 06-communication-techniques.md
+  - Cursor Workflows: 07-workflows.md
+  - Антипаттерны и частые ошибки: 08-antipatterns.md
+  - Примеры из реальных проектов: 09-examples.md
+  - Личные практики: 10-practices.md
+  - Настройки Cursor AI: 11-settings.md
+
+# Расширения Markdown
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+# Дополнительные настройки
+plugins:
+  - search
