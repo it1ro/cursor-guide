@@ -1,0 +1,314 @@
+/* Кастомная темная тема для MkDocs Material */
+/* Современная тема с мягкими цветами и приятной подсветкой синтаксиса */
+
+:root {
+  /* Основные цвета фона */
+  --md-default-bg-color: #1a1a1e;
+  --md-default-fg-color: #e4e4e7;
+  
+  /* Цвета фона для разных элементов */
+  --md-code-bg-color: #16161a;
+  --md-code-hl-color: rgba(75, 155, 213, 0.15);
+  
+  /* Цвета текста */
+  --md-default-fg-color--light: #d4d4d8;
+  --md-default-fg-color--lighter: #a1a1aa;
+  --md-default-fg-color--lightest: #71717a;
+  
+  /* Акцентные цвета */
+  --md-primary-fg-color: #5b9bd5;
+  --md-primary-fg-color--light: #7bb3d8;
+  --md-primary-fg-color--dark: #4a7fb0;
+  
+  --md-accent-fg-color: #4ec9b0;
+  --md-accent-fg-color--transparent: rgba(78, 201, 176, 0.1);
+  
+  /* Цвета ссылок */
+  --md-typeset-a-color: #5b9bd5;
+  
+  /* Цвета кода */
+  --md-code-fg-color: #e4e4e7;
+  
+  /* Мягкие серые для границ */
+  --md-default-fg-color--lightest: rgba(255, 255, 255, 0.12);
+}
+
+/* Общие стили страницы */
+body {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+/* Блоки кода - приятный стиль */
+.highlight,
+.highlighttable,
+code.highlighter-rouge,
+pre {
+  background-color: var(--md-code-bg-color) !important;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Встроенный код */
+code {
+  background-color: rgba(22, 22, 26, 0.6);
+  color: #e4e4e7;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Блоки кода */
+pre code {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.highlighttable {
+  overflow-x: auto;
+}
+
+/* Подсветка синтаксиса - мягкие цвета */
+.highlight .k,           /* Ключевые слова */
+.highlight .kt,          /* Типы */
+.highlight .kd,          /* Объявления */
+.highlight .kn {         /* Операторы */
+  color: #c586c0;        /* Мягкий фиолетовый */
+}
+
+.highlight .s,           /* Строки */
+.highlight .s1,          /* Строки одинарные */
+.highlight .s2,          /* Строки двойные */
+.highlight .sb,          /* Строки сырые */
+.highlight .sc {         /* Символы */
+  color: #ce9178;        /* Мягкий персиковый */
+}
+
+.highlight .c,           /* Комментарии */
+.highlight .c1,          /* Комментарии однострочные */
+.highlight .cm,          /* Комментарии многострочные */
+.highlight .cp {         /* Комментарии препроцессора */
+  color: #6a9955;        /* Мягкий зеленый */
+  font-style: italic;
+}
+
+.highlight .nf,          /* Функции */
+.highlight .nc,          /* Классы */
+.highlight .nb {         /* Встроенные функции */
+  color: #dcdcaa;        /* Мягкий желтый */
+}
+
+.highlight .nv,          /* Переменные */
+.highlight .na,          /* Атрибуты */
+.highlight .no {         /* Константы */
+  color: #4ec9b0;        /* Бирюзовый */
+}
+
+.highlight .mi,          /* Числа */
+.highlight .mf {         /* Числа с плавающей точкой */
+  color: #b5cea8;        /* Мягкий зеленоватый */
+}
+
+.highlight .o {          /* Операторы */
+  color: #d4d4d4;        /* Светло-серый */
+}
+
+.highlight .p {          /* Пунктуация */
+  color: #d4d4d4;
+}
+
+/* Admonitions - мягкие стили */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.md-typeset .admonition-title {
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+}
+
+.md-typeset .admonition.note {
+  border-color: rgba(75, 155, 213, 0.4);
+  background-color: rgba(75, 155, 213, 0.08);
+}
+
+.md-typeset .admonition.note .admonition-title {
+  background-color: rgba(75, 155, 213, 0.15);
+  color: #7bb3d8;
+}
+
+.md-typeset .admonition.warning {
+  border-color: rgba(206, 145, 120, 0.4);
+  background-color: rgba(206, 145, 120, 0.08);
+}
+
+.md-typeset .admonition.warning .admonition-title {
+  background-color: rgba(206, 145, 120, 0.15);
+  color: #ce9178;
+}
+
+.md-typeset .admonition.tip {
+  border-color: rgba(78, 201, 176, 0.4);
+  background-color: rgba(78, 201, 176, 0.08);
+}
+
+.md-typeset .admonition.tip .admonition-title {
+  background-color: rgba(78, 201, 176, 0.15);
+  color: #4ec9b0;
+}
+
+.md-typeset .admonition.danger {
+  border-color: rgba(206, 145, 120, 0.5);
+  background-color: rgba(206, 145, 120, 0.1);
+}
+
+.md-typeset .admonition.danger .admonition-title {
+  background-color: rgba(206, 145, 120, 0.2);
+  color: #ce9178;
+}
+
+/* Заголовки */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  color: var(--md-default-fg-color);
+  font-weight: 600;
+}
+
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.3em;
+}
+
+/* Ссылки */
+.md-typeset a {
+  color: var(--md-primary-fg-color);
+  transition: color 0.2s ease;
+}
+
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color--light);
+}
+
+/* Навигация */
+.md-nav__link {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-nav__link:hover {
+  color: var(--md-primary-fg-color);
+}
+
+.md-nav__link--active {
+  color: var(--md-primary-fg-color);
+}
+
+/* Таблицы */
+.md-typeset table:not([class]) {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: rgba(75, 155, 213, 0.15);
+  color: var(--md-primary-fg-color--light);
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Кавычки */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-primary-fg-color);
+  background-color: rgba(75, 155, 213, 0.05);
+  border-radius: 4px;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Кнопки и элементы интерфейса */
+.md-button {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.md-button--primary {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-default-bg-color);
+  border: none;
+}
+
+.md-button--primary:hover {
+  background-color: var(--md-primary-fg-color--light);
+  box-shadow: 0 4px 12px rgba(75, 155, 213, 0.3);
+}
+
+/* Скроллбары */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--md-default-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Улучшение типографики */
+.md-typeset {
+  line-height: 1.7;
+}
+
+.md-typeset p {
+  margin: 1em 0;
+}
+
+.md-typeset ul,
+.md-typeset ol {
+  margin: 1em 0;
+}
+
+/* Мягкие переходы для интерактивных элементов */
+.md-nav__item,
+.md-tabs__item,
+.md-header__button {
+  transition: all 0.2s ease;
+}
+
+/* Подсветка найденного текста в поиске */
+.md-search-result__item {
+  background-color: rgba(75, 155, 213, 0.1);
+  border-radius: 4px;
+}
+
+.md-search-result__meta {
+  color: var(--md-default-fg-color--light);
+}
