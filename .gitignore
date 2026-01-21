@@ -1,0 +1,10 @@
+# Jekyll временные файлы
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# ОС файлы
+.DS_Store
+Thumbs.db
