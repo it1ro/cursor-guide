@@ -6,15 +6,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Личный гайд по эффективной работе с Cursor AI">
+        <meta name="description" content="Как работать с Cursor как инженер: промпты, контекст, архитектура">
       
       
       
       
-        <link rel="prev" href="../02-prompt-structure/">
+        <link rel="prev" href="../principles/">
       
       
-        <link rel="next" href="../04-implementation/">
+        <link rel="next" href="../design/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Cursor в проектировании - Cursor AI Guide</title>
+        <title>Структура промпта - Cursor AI Guide</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#3-cursor" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cursor в проектировании
+              Структура промпта
             
           </span>
         </div>
@@ -242,32 +242,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../01-principles/" class="md-tabs__link">
+      <a href="../principles/" class="md-tabs__link">
         
   
   
     
   
-  Принципы работы с Cursor AI
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../02-prompt-structure/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Структура эффективного промпта
+  Принципы
 
       </a>
     </li>
@@ -288,7 +269,7 @@
   
     
   
-  Cursor в проектировании
+  Структура промпта
 
       </a>
     </li>
@@ -301,13 +282,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../04-implementation/" class="md-tabs__link">
+      <a href="../design/" class="md-tabs__link">
         
   
   
     
   
-  Cursor в реализации
+  Проектирование
 
       </a>
     </li>
@@ -320,13 +301,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../05-ideation/" class="md-tabs__link">
+      <a href="../implementation/" class="md-tabs__link">
         
   
   
     
   
-  Cursor в развитии идеи
+  Реализация
 
       </a>
     </li>
@@ -339,13 +320,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../06-communication-techniques/" class="md-tabs__link">
+      <a href="../ideation/" class="md-tabs__link">
         
   
   
     
   
-  Техники общения с Cursor
+  Развитие идеи
 
       </a>
     </li>
@@ -358,13 +339,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../07-workflows/" class="md-tabs__link">
+      <a href="../communication/" class="md-tabs__link">
         
   
   
     
   
-  Cursor Workflows
+  Техники общения
 
       </a>
     </li>
@@ -377,13 +358,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../08-antipatterns/" class="md-tabs__link">
+      <a href="../workflows/" class="md-tabs__link">
         
   
   
     
   
-  Антипаттерны и частые ошибки
+  Workflows
 
       </a>
     </li>
@@ -396,13 +377,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../09-examples/" class="md-tabs__link">
+      <a href="../antipatterns/" class="md-tabs__link">
         
   
   
     
   
-  Примеры из реальных проектов
+  Ошибки
 
       </a>
     </li>
@@ -415,13 +396,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../10-practices/" class="md-tabs__link">
+      <a href="../examples/" class="md-tabs__link">
         
   
   
     
   
-  Личные практики
+  Примеры
 
       </a>
     </li>
@@ -434,13 +415,51 @@
   
   
     <li class="md-tabs__item">
-      <a href="../11-settings/" class="md-tabs__link">
+      <a href="../practices/" class="md-tabs__link">
         
   
   
     
   
-  Настройки Cursor AI
+  Практики
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../settings/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Настройки
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../development/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Разработка
 
       </a>
     </li>
@@ -526,41 +545,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../01-principles/" class="md-nav__link">
+      <a href="../principles/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Принципы работы с Cursor AI
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../02-prompt-structure/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Структура эффективного промпта
+    Принципы
   
 
     
@@ -596,7 +588,7 @@
   <span class="md-ellipsis">
     
   
-    Cursor в проектировании
+    Структура промпта
   
 
     
@@ -614,7 +606,7 @@
   <span class="md-ellipsis">
     
   
-    Cursor в проектировании
+    Структура промпта
   
 
     
@@ -640,10 +632,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#31-cursor" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.1. Как обсуждать архитектуру модуля с Cursor
+        Контекст
       
     </span>
   </a>
@@ -651,10 +643,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#32-cursor" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.2. Как заставить Cursor предлагать варианты, а не "единственно верный" подход
+        Задача
       
     </span>
   </a>
@@ -662,10 +654,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#33-api-cursor" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.3. Как проектировать API через Cursor
+        Критерии качества
       
     </span>
   </a>
@@ -673,10 +665,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#34-cursor" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.4. Как использовать Cursor для проверки архитектурных решений
+        Формат ответа
       
     </span>
   </a>
@@ -684,32 +676,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#35-cursor" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.5. Как использовать Cursor для проектирования модульных связей
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#36-cursor-roadmap" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3.6. Как использовать Cursor для roadmap и декомпозиции
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#37-cursor" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3.7. Как использовать Cursor для анализа компромиссов
+        Полный пример
       
     </span>
   </a>
@@ -731,14 +701,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../04-implementation/" class="md-nav__link">
+      <a href="../design/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Cursor в реализации
+    Проектирование
   
 
     
@@ -758,14 +728,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../05-ideation/" class="md-nav__link">
+      <a href="../implementation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Cursor в развитии идеи
+    Реализация
   
 
     
@@ -785,14 +755,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../06-communication-techniques/" class="md-nav__link">
+      <a href="../ideation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Техники общения с Cursor
+    Развитие идеи
   
 
     
@@ -812,14 +782,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../07-workflows/" class="md-nav__link">
+      <a href="../communication/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Cursor Workflows
+    Техники общения
   
 
     
@@ -839,14 +809,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../08-antipatterns/" class="md-nav__link">
+      <a href="../workflows/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Антипаттерны и частые ошибки
+    Workflows
   
 
     
@@ -866,14 +836,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../09-examples/" class="md-nav__link">
+      <a href="../antipatterns/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Примеры из реальных проектов
+    Ошибки
   
 
     
@@ -893,14 +863,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../10-practices/" class="md-nav__link">
+      <a href="../examples/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Личные практики
+    Примеры
   
 
     
@@ -920,14 +890,68 @@
   
   
     <li class="md-nav__item">
-      <a href="../11-settings/" class="md-nav__link">
+      <a href="../practices/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Настройки Cursor AI
+    Практики
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Настройки
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Разработка
   
 
     
@@ -967,10 +991,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#31-cursor" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.1. Как обсуждать архитектуру модуля с Cursor
+        Контекст
       
     </span>
   </a>
@@ -978,10 +1002,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#32-cursor" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.2. Как заставить Cursor предлагать варианты, а не "единственно верный" подход
+        Задача
       
     </span>
   </a>
@@ -989,10 +1013,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#33-api-cursor" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.3. Как проектировать API через Cursor
+        Критерии качества
       
     </span>
   </a>
@@ -1000,10 +1024,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#34-cursor" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.4. Как использовать Cursor для проверки архитектурных решений
+        Формат ответа
       
     </span>
   </a>
@@ -1011,32 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#35-cursor" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3.5. Как использовать Cursor для проектирования модульных связей
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#36-cursor-roadmap" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3.6. Как использовать Cursor для roadmap и декомпозиции
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#37-cursor" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3.7. Как использовать Cursor для анализа компромиссов
+        Полный пример
       
     </span>
   </a>
@@ -1063,159 +1065,80 @@
   
 
 
-<h1 id="3-cursor">3. Cursor в проектировании<a class="headerlink" href="#3-cursor" title="Permanent link">&para;</a></h1>
-<p>Cursor — это не просто исполнитель кода.<br />
-В проектировании он работает как <strong>архитектурный собеседник</strong>, который:</p>
-<ul>
-<li>генерирует варианты,</li>
-<li>сравнивает подходы,</li>
-<li>выявляет компромиссы,</li>
-<li>помогает формировать структуру модулей,</li>
-<li>проверяет архитектурные решения на согласованность,</li>
-<li>предлагает улучшения без ломки API.</li>
-</ul>
-<p>Ты остаёшься архитектором.<br />
-Cursor — генератор вариантов и аналитик.</p>
-<hr />
-<h2 id="31-cursor">3.1. Как обсуждать архитектуру модуля с Cursor<a class="headerlink" href="#31-cursor" title="Permanent link">&para;</a></h2>
-<p>Перед реализацией любого модуля flight-engine ты начинаешь с <strong>архитектурного диалога</strong>.</p>
-<p>Пример промпта:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>You are an architect working on telnik-flight-engine — a modular TS flight physics engine.
+<h1 id="_1">Структура промпта<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">Контекст<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>Коротко и точно. Cursor не должен угадывать.</p>
+<p>Пример:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>You are working on telnik-flight-engine — a modular TypeScript flight physics engine for browser games.
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Task:
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Propose 3 architectural variants for the [MODULE NAME] module.
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>Constraints:
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>- TS-only.
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>- Pure functions.
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>- No classes.
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>- No hidden state.
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>- Deterministic.
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>- Minimal abstractions.
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>- API must be explicit and stable.
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>Compare variants by:
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>- clarity,
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>- composability,
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>- performance,
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>- integration with existing modules.
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>Output:
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>1. Three variants.
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>2. Comparison table.
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>3. Recommendation.
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Architecture principles:
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>- TS-only, no external dependencies unless absolutely necessary
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>- Modular, composable, declarative
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>- No hidden state, no side effects
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>- Deterministic, reproducible simulation
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>- Minimal abstractions, no overengineering
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>- API must stay stable and predictable
 </span></code></pre></div>
-<p>Cursor выдаёт варианты → ты выбираешь → уточняешь.</p>
-<hr />
-<h2 id="32-cursor">3.2. Как заставить Cursor предлагать варианты, а не "единственно верный" подход<a class="headerlink" href="#32-cursor" title="Permanent link">&para;</a></h2>
-<p>Cursor по умолчанию любит давать один ответ.<br />
-Чтобы он стал полезным архитектором, ты всегда добавляешь:</p>
-<ul>
-<li>“Propose 3 variants”</li>
-<li>“Compare them”</li>
-<li>“Explain trade-offs”</li>
-<li>“Give a recommendation”</li>
-</ul>
-<p>Это превращает Cursor в <strong>генератор архитектурных решений</strong>, а не в “орекла”.</p>
-<hr />
-<h2 id="33-api-cursor">3.3. Как проектировать API через Cursor<a class="headerlink" href="#33-api-cursor" title="Permanent link">&para;</a></h2>
-<p>После выбора архитектурного варианта — уточняешь API.</p>
+<p>Это ограничивает поведение и предотвращает:
+- лишние классы
+- новые слои
+- "умные" абстракции
+- магию
+- сторонние библиотеки</p>
+<h2 id="_3">Задача<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>Чётко и узко.</p>
 <p>Пример:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Based on Variant 2, propose a minimal API for the module.
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>Requirements:
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>- Single pure function (or small set of pure functions).
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>- No new abstractions.
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>- No classes.
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>- Explicit inputs and outputs.
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>- Follow existing naming conventions.
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>Output:
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>1. API signature.
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>2. Short explanation.
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Task: design a minimal module for aerodynamic drag
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Goal: provide a pure function that computes drag force based on velocity, area, density, and drag coefficient
 </span></code></pre></div>
-<p>Cursor предложит API, а ты можешь уточнить:</p>
-<ul>
-<li>убрать лишнее,</li>
-<li>сделать параметры явными,</li>
-<li>убрать implicit state,</li>
-<li>сделать API более декларативным.</li>
-</ul>
-<hr />
-<h2 id="34-cursor">3.4. Как использовать Cursor для проверки архитектурных решений<a class="headerlink" href="#34-cursor" title="Permanent link">&para;</a></h2>
-<p>После проектирования API можно попросить Cursor проверить:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Check if this API aligns with the architecture of telnik-flight-engine.
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>List:
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>- matches,
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>- mismatches,
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>- potential improvements.
+<p>Чем меньше задача — тем лучше результат.</p>
+<h2 id="_4">Критерии качества<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>Это твой стиль.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Quality criteria:
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>- Pure function
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>- No classes
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>- No side effects
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>- No new abstractions
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>- Follow existing naming conventions
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>- Keep the API minimal and explicit
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>- Provide usage example
 </span></code></pre></div>
-<p>Cursor найдёт:</p>
-<ul>
-<li>несогласованности,</li>
-<li>нарушения принципов,</li>
-<li>потенциальные проблемы,</li>
-<li>naming issues.</li>
-</ul>
-<p>Это особенно полезно, когда проект растёт.</p>
-<hr />
-<h2 id="35-cursor">3.5. Как использовать Cursor для проектирования модульных связей<a class="headerlink" href="#35-cursor" title="Permanent link">&para;</a></h2>
-<p>flight-engine — модульный, композиционный проект.<br />
-Cursor может помочь проектировать связи:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Explain how this module should integrate with:
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>- state update pipeline,
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>- integrator,
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>- atmosphere model,
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>- other force modules.
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>Propose minimal integration points.
+<p>Cursor начнёт писать код в твоём стиле, а не в своём.</p>
+<h2 id="_5">Формат ответа<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Output format:
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>1. Proposed API (short)
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>2. Final TypeScript implementation
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>3. Usage example
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>4. Notes on integration with existing modules
 </span></code></pre></div>
-<p>Cursor предложит:</p>
-<ul>
-<li>где вызывать модуль,</li>
-<li>какие данные передавать,</li>
-<li>как избежать дублирования,</li>
-<li>как сохранить чистоту архитектуры.</li>
-</ul>
-<hr />
-<h2 id="36-cursor-roadmap">3.6. Как использовать Cursor для roadmap и декомпозиции<a class="headerlink" href="#36-cursor-roadmap" title="Permanent link">&para;</a></h2>
-<p>Cursor отлично умеет превращать архитектурную идею в <strong>план разработки</strong>.</p>
-<p>Пример:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Create a roadmap for implementing the [MODULE NAME] module.
+<p>Cursor выдаст структурированный ответ.</p>
+<h2 id="_6">Полный пример<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>You are a senior TypeScript engineer working on telnik-flight-engine — a modular TS flight physics engine for browser games.
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>Include:
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>- steps,
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>- dependencies,
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>- risks,
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>- testing strategy,
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>- documentation tasks.
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>Architecture principles:
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>- TS-only, no external deps
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>- Modular, composable, declarative
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>- Pure functions, no side effects
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>- Deterministic simulation
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>- Minimal abstractions, stable API
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>Task:
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>Design a minimal aerodynamic drag module
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>Quality criteria:
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>- Pure function
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>- No classes
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>- No new abstractions
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>- Follow existing naming conventions
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>- Provide usage example
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>Output format:
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a>1. Proposed API
+</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a>2. Final TS implementation
+</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a>3. Usage example
+</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a>4. Integration notes
 </span></code></pre></div>
-<p>Ты получаешь:</p>
-<ul>
-<li>чёткий план,</li>
-<li>порядок задач,</li>
-<li>список рисков,</li>
-<li>что тестировать,</li>
-<li>что документировать.</li>
-</ul>
-<hr />
-<h2 id="37-cursor">3.7. Как использовать Cursor для анализа компромиссов<a class="headerlink" href="#37-cursor" title="Permanent link">&para;</a></h2>
-<p>Cursor может объяснить:</p>
-<ul>
-<li>почему вариант A лучше B,</li>
-<li>какие trade-offs,</li>
-<li>что будет стоить производительности,</li>
-<li>что будет стоить простоты.</li>
-</ul>
-<p>Пример:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Explain trade-offs between Variant 1 and Variant 2.
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>Focus on:
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>- performance,
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>- clarity,
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>- maintainability,
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>- composability.
-</span></code></pre></div>
-<p>Это помогает принимать архитектурные решения осознанно.</p>
+<p>Это даёт предсказуемый результат.</p>
 
 
 

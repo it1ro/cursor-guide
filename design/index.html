@@ -6,15 +6,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Личный гайд по эффективной работе с Cursor AI">
+        <meta name="description" content="Как работать с Cursor как инженер: промпты, контекст, архитектура">
       
       
       
       
-        <link rel="prev" href="../01-principles/">
+        <link rel="prev" href="../prompt-structure/">
       
       
-        <link rel="next" href="../03-design/">
+        <link rel="next" href="../implementation/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Структура эффективного промпта - Cursor AI Guide</title>
+        <title>Проектирование - Cursor AI Guide</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#2" class="md-skip">
+        <a href="#cursor" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Структура эффективного промпта
+              Проектирование
             
           </span>
         </div>
@@ -242,13 +242,32 @@
   
   
     <li class="md-tabs__item">
-      <a href="../01-principles/" class="md-tabs__link">
+      <a href="../principles/" class="md-tabs__link">
         
   
   
     
   
-  Принципы работы с Cursor AI
+  Принципы
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../prompt-structure/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Структура промпта
 
       </a>
     </li>
@@ -269,7 +288,7 @@
   
     
   
-  Структура эффективного промпта
+  Проектирование
 
       </a>
     </li>
@@ -282,13 +301,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../03-design/" class="md-tabs__link">
+      <a href="../implementation/" class="md-tabs__link">
         
   
   
     
   
-  Cursor в проектировании
+  Реализация
 
       </a>
     </li>
@@ -301,13 +320,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../04-implementation/" class="md-tabs__link">
+      <a href="../ideation/" class="md-tabs__link">
         
   
   
     
   
-  Cursor в реализации
+  Развитие идеи
 
       </a>
     </li>
@@ -320,13 +339,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../05-ideation/" class="md-tabs__link">
+      <a href="../communication/" class="md-tabs__link">
         
   
   
     
   
-  Cursor в развитии идеи
+  Техники общения
 
       </a>
     </li>
@@ -339,13 +358,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../06-communication-techniques/" class="md-tabs__link">
+      <a href="../workflows/" class="md-tabs__link">
         
   
   
     
   
-  Техники общения с Cursor
+  Workflows
 
       </a>
     </li>
@@ -358,13 +377,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../07-workflows/" class="md-tabs__link">
+      <a href="../antipatterns/" class="md-tabs__link">
         
   
   
     
   
-  Cursor Workflows
+  Ошибки
 
       </a>
     </li>
@@ -377,13 +396,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../08-antipatterns/" class="md-tabs__link">
+      <a href="../examples/" class="md-tabs__link">
         
   
   
     
   
-  Антипаттерны и частые ошибки
+  Примеры
 
       </a>
     </li>
@@ -396,13 +415,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../09-examples/" class="md-tabs__link">
+      <a href="../practices/" class="md-tabs__link">
         
   
   
     
   
-  Примеры из реальных проектов
+  Практики
 
       </a>
     </li>
@@ -415,13 +434,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../10-practices/" class="md-tabs__link">
+      <a href="../settings/" class="md-tabs__link">
         
   
   
     
   
-  Личные практики
+  Настройки
 
       </a>
     </li>
@@ -434,13 +453,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../11-settings/" class="md-tabs__link">
+      <a href="../development/" class="md-tabs__link">
         
   
   
     
   
-  Настройки Cursor AI
+  Разработка
 
       </a>
     </li>
@@ -526,14 +545,41 @@
   
   
     <li class="md-nav__item">
-      <a href="../01-principles/" class="md-nav__link">
+      <a href="../principles/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Принципы работы с Cursor AI
+    Принципы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prompt-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Структура промпта
   
 
     
@@ -569,7 +615,7 @@
   <span class="md-ellipsis">
     
   
-    Структура эффективного промпта
+    Проектирование
   
 
     
@@ -587,7 +633,7 @@
   <span class="md-ellipsis">
     
   
-    Структура эффективного промпта
+    Проектирование
   
 
     
@@ -613,10 +659,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#21" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.1. Контекст (минимальный, но достаточный)
+        Обсуждение архитектуры модуля
       
     </span>
   </a>
@@ -624,10 +670,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#22" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.2. Текущая задача (чётко и узко)
+        Заставить предлагать варианты
       
     </span>
   </a>
@@ -635,10 +681,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#23" class="md-nav__link">
+  <a href="#api" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.3. Критерии качества (это твой стиль)
+        Проектирование API
       
     </span>
   </a>
@@ -646,10 +692,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#24" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.4. Формат ответа
+        Проверка архитектурных решений
       
     </span>
   </a>
@@ -657,10 +703,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#25-flight-engine" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.5. Пример полного промпта для flight-engine
+        Проектирование связей модулей
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roadmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Roadmap и декомпозиция
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Анализ компромиссов
       
     </span>
   </a>
@@ -682,14 +750,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../03-design/" class="md-nav__link">
+      <a href="../implementation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Cursor в проектировании
+    Реализация
   
 
     
@@ -709,14 +777,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../04-implementation/" class="md-nav__link">
+      <a href="../ideation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Cursor в реализации
+    Развитие идеи
   
 
     
@@ -736,14 +804,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../05-ideation/" class="md-nav__link">
+      <a href="../communication/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Cursor в развитии идеи
+    Техники общения
   
 
     
@@ -763,14 +831,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../06-communication-techniques/" class="md-nav__link">
+      <a href="../workflows/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Техники общения с Cursor
+    Workflows
   
 
     
@@ -790,14 +858,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../07-workflows/" class="md-nav__link">
+      <a href="../antipatterns/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Cursor Workflows
+    Ошибки
   
 
     
@@ -817,14 +885,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../08-antipatterns/" class="md-nav__link">
+      <a href="../examples/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Антипаттерны и частые ошибки
+    Примеры
   
 
     
@@ -844,14 +912,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../09-examples/" class="md-nav__link">
+      <a href="../practices/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Примеры из реальных проектов
+    Практики
   
 
     
@@ -871,14 +939,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../10-practices/" class="md-nav__link">
+      <a href="../settings/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Личные практики
+    Настройки
   
 
     
@@ -898,14 +966,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../11-settings/" class="md-nav__link">
+      <a href="../development/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Настройки Cursor AI
+    Разработка
   
 
     
@@ -945,10 +1013,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#21" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.1. Контекст (минимальный, но достаточный)
+        Обсуждение архитектуры модуля
       
     </span>
   </a>
@@ -956,10 +1024,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#22" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.2. Текущая задача (чётко и узко)
+        Заставить предлагать варианты
       
     </span>
   </a>
@@ -967,10 +1035,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#23" class="md-nav__link">
+  <a href="#api" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.3. Критерии качества (это твой стиль)
+        Проектирование API
       
     </span>
   </a>
@@ -978,10 +1046,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#24" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.4. Формат ответа
+        Проверка архитектурных решений
       
     </span>
   </a>
@@ -989,10 +1057,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#25-flight-engine" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2.5. Пример полного промпта для flight-engine
+        Проектирование связей модулей
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roadmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Roadmap и декомпозиция
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Анализ компромиссов
       
     </span>
   </a>
@@ -1019,84 +1109,122 @@
   
 
 
-<h1 id="2">2. Структура эффективного промпта<a class="headerlink" href="#2" title="Permanent link">&para;</a></h1>
-<h2 id="21">2.1. Контекст (минимальный, но достаточный)<a class="headerlink" href="#21" title="Permanent link">&para;</a></h2>
-<p>Cursor не должен “угадывать”, что такое flight-engine.<br />
-Ему нужно короткое, но точное описание:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>You are working on telnik-flight-engine — a modular TypeScript flight physics engine for browser games.
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>Architecture principles:
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>- TS-only, no external dependencies unless absolutely necessary.
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>- Modular, composable, declarative.
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>- No hidden state, no side effects.
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>- Deterministic, reproducible simulation.
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>- Minimal abstractions, no overengineering.
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>- API must stay stable and predictable.
+<h1 id="cursor">Проектирование с Cursor<a class="headerlink" href="#cursor" title="Permanent link">&para;</a></h1>
+<p>Cursor работает как архитектурный собеседник:
+- генерирует варианты
+- сравнивает подходы
+- выявляет компромиссы
+- помогает формировать структуру модулей
+- проверяет согласованность решений
+- предлагает улучшения без ломки API</p>
+<p>Ты остаёшься архитектором. Cursor — генератор вариантов.</p>
+<h2 id="_1">Обсуждение архитектуры модуля<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>Пример промпта:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>You are an architect working on telnik-flight-engine — a modular TS flight physics engine.
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Task:
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Propose 3 architectural variants for the [MODULE NAME] module.
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>Constraints:
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>- TS-only
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>- Pure functions
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>- No classes
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>- No hidden state
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>- Deterministic
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>- Minimal abstractions
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>- API must be explicit and stable
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>Compare variants by:
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>- clarity
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>- composability
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>- performance
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>- integration with existing modules
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>Output:
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>1. Three variants
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>2. Comparison table
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>3. Recommendation
 </span></code></pre></div>
-<p>Это <strong>жёстко ограничивает</strong> его поведение и предотвращает:</p>
-<ul>
-<li>лишние классы,</li>
-<li>новые слои,</li>
-<li>“умные” абстракции,</li>
-<li>магию,</li>
-<li>сторонние библиотеки.</li>
-</ul>
-<hr />
-<h2 id="22">2.2. Текущая задача (чётко и узко)<a class="headerlink" href="#22" title="Permanent link">&para;</a></h2>
+<p>Cursor выдаст варианты → ты выбираешь → уточняешь.</p>
+<h2 id="_2">Заставить предлагать варианты<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>Cursor по умолчанию даёт один ответ. Добавляй:
+- "Propose 3 variants"
+- "Compare them"
+- "Explain trade-offs"
+- "Give a recommendation"</p>
+<p>Cursor станет генератором решений, а не оракулом.</p>
+<h2 id="api">Проектирование API<a class="headerlink" href="#api" title="Permanent link">&para;</a></h2>
+<p>После выбора архитектуры — уточняй API.</p>
 <p>Пример:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Task: design a minimal module for aerodynamic drag.
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Goal: provide a pure function that computes drag force based on velocity, area, density, and drag coefficient.
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Based on Variant 2, propose a minimal API for the module.
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>Requirements:
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>- Single pure function (or small set of pure functions)
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>- No new abstractions
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>- No classes
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>- Explicit inputs and outputs
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>- Follow existing naming conventions
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>Output:
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>1. API signature
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>2. Short explanation
 </span></code></pre></div>
-<p>Cursor любит узкие задачи.<br />
-Чем меньше — тем лучше результат.</p>
-<hr />
-<h2 id="23">2.3. Критерии качества (это твой стиль)<a class="headerlink" href="#23" title="Permanent link">&para;</a></h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Quality criteria:
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>- Pure function.
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>- No classes.
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>- No side effects.
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>- No new abstractions.
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>- Follow existing naming conventions.
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>- Keep the API minimal and explicit.
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>- Provide usage example.
+<p>Можешь уточнить:
+- убрать лишнее
+- сделать параметры явными
+- убрать implicit state
+- сделать API более декларативным</p>
+<h2 id="_3">Проверка архитектурных решений<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Check if this API aligns with the architecture of telnik-flight-engine.
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>List:
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>- matches
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>- mismatches
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>- potential improvements
 </span></code></pre></div>
-<p>Это превращает Cursor в <strong>инженера, который пишет код в твоём стиле</strong>, а не в своём.</p>
-<hr />
-<h2 id="24">2.4. Формат ответа<a class="headerlink" href="#24" title="Permanent link">&para;</a></h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Output format:
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>1. Proposed API (short).
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>2. Final TypeScript implementation.
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>3. Usage example.
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>4. Notes on integration with existing modules.
+<p>Cursor найдёт:
+- несогласованности
+- нарушения принципов
+- потенциальные проблемы
+- naming issues</p>
+<h2 id="_4">Проектирование связей модулей<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Explain how this module should integrate with:
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>- state update pipeline
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>- integrator
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>- atmosphere model
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>- other force modules
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>Propose minimal integration points.
 </span></code></pre></div>
-<p>Cursor начинает выдавать структурированные, предсказуемые ответы.</p>
-<hr />
-<h2 id="25-flight-engine">2.5. Пример полного промпта для flight-engine<a class="headerlink" href="#25-flight-engine" title="Permanent link">&para;</a></h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>You are a senior TypeScript engineer working on telnik-flight-engine — a modular TS flight physics engine for browser games.
+<p>Cursor предложит:
+- где вызывать модуль
+- какие данные передавать
+- как избежать дублирования
+- как сохранить чистоту архитектуры</p>
+<h2 id="roadmap">Roadmap и декомпозиция<a class="headerlink" href="#roadmap" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Create a roadmap for implementing the [MODULE NAME] module.
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>Architecture principles:
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>- TS-only, no external deps.
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>- Modular, composable, declarative.
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>- Pure functions, no side effects.
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>- Deterministic simulation.
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>- Minimal abstractions, stable API.
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>Task:
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>Design a minimal aerodynamic drag module.
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>
-</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>Quality criteria:
-</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>- Pure function.
-</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>- No classes.
-</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>- No new abstractions.
-</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>- Follow existing naming conventions.
-</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>- Provide usage example.
-</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>
-</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>Output format:
-</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a>1. Proposed API.
-</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a>2. Final TS implementation.
-</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a>3. Usage example.
-</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a>4. Integration notes.
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>Include:
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>- steps
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>- dependencies
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>- risks
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>- testing strategy
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>- documentation tasks
 </span></code></pre></div>
-<p>Это — <strong>идеальный промпт</strong>, который даёт идеальный результат.</p>
+<p>Получишь:
+- чёткий план
+- порядок задач
+- список рисков
+- что тестировать
+- что документировать</p>
+<h2 id="_5">Анализ компромиссов<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Explain trade-offs between Variant 1 and Variant 2.
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>Focus on:
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>- performance
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>- clarity
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>- maintainability
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>- composability
+</span></code></pre></div>
+<p>Помогает принимать решения осознанно.</p>
 
 
 
