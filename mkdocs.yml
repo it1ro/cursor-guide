@@ -1,5 +1,9 @@
 site_name: Cursor AI Guide
+<<<<<<< HEAD
 site_description: "Как работать с Cursor как инженер: промпты, контекст, архитектура"
+=======
+site_description: Практики работы с Cursor: контекст, промпты, дизайн, реализация
+>>>>>>> parent of 0f5513c (refactor(docs): переписать документацию в стиле Ильяхова)
 
 # Репозиторий
 repo_name: cursor-guide
@@ -38,18 +42,18 @@ theme:
 # Навигация
 nav:
   - Главная: index.md
-  - Принципы: principles.md
-  - Структура промпта: prompt-structure.md
-  - Проектирование: design.md
-  - Реализация: implementation.md
-  - Развитие идеи: ideation.md
-  - Техники общения: communication.md
-  - Workflows: workflows.md
-  - Ошибки: antipatterns.md
-  - Примеры: examples.md
-  - Практики: practices.md
-  - Настройки: settings.md
-  - Разработка: development.md
+  - Принципы работы с Cursor AI: 01-principles.md
+  - Структура эффективного промпта: 02-prompt-structure.md
+  - Cursor в проектировании: 03-design.md
+  - Cursor в реализации: 04-implementation.md
+  - Cursor в развитии идеи: 05-ideation.md
+  - Техники общения с Cursor: 06-communication-techniques.md
+  - Cursor Workflows: 07-workflows.md
+  - Антипаттерны и частые ошибки: 08-antipatterns.md
+  - Примеры из реальных проектов: 09-examples.md
+  - Личные практики: 10-practices.md
+  - Настройки Cursor AI: 11-settings.md
+  - Публикация и локальный запуск: 12-development.md
 
 # Расширения Markdown
 markdown_extensions:
